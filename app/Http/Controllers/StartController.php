@@ -13,6 +13,6 @@ class StartController extends Controller
 
     public function next()
     {
-        return redirect()->route('caloriesSleep');
+        return redirect()->route('files/caloriesSleep');
     }
 }

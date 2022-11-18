@@ -3,10 +3,8 @@
 <div class="container">
     <div>
         <div>
-            <img src="{{ asset('img/_gupef50940bka42ak4b8ekad8ck5ad3e74c64ce.jpg') }}">
-        </div>
-        <div>
-            <p>Sie möchten wissen, wie viele Kalorien Sie am Tag verbrauchen?<br> Mit unserem Rechner können Sie ganz einfach Ihren individuellen Bedarf ermitteln.
+            <img src="{{ asset('img/_gupef50940bka42ak4b8ekad8ck5ad3e74c64ce.jpg') }}" style="text-align: center">
+            <p style="float: right">Sie möchten wissen, wie viele Kalorien Sie am Tag verbrauchen?<br> Mit unserem Rechner können Sie ganz einfach Ihren individuellen Bedarf ermitteln.<br>
             Teilen Sie dafür die 24 Stunden eines Tages in unterschiedliche <br>Aktivitäten wie Sport, Arbeit und Schlaf auf.<br>
             Wichtig: Um möglichst passende Werte zu erhalten, sollten Sie die <br>unterschiedlichen Tätigkeiten so genau wie möglich bewerten und im Zweifel eher <br>ab- als aufrunden.<br>
             Der Rechner wandelt Ihre Angaben in das "Metabolische Äquivalent"<br> (MET) um, um den Energieverbrauch der unterschiedlichen Aktivitäten vergleichbar<br> zu machen.<br>
@@ -15,12 +13,13 @@
         </p>
         </div>
     </div>
+    <br>
 
- <div style="float: right">
-     <a href="caloriesSleep">
-     <button type="button" class="btn btn-outline-secondary">Berechnen starten</button>
-     </a>
- </div>
+    <div style="float: right">
+         <a href="caloriesSleep">
+        <button type="button" class="btn btn-outline-secondary">Berechnen starten</button>
+        </a>
+    </div>
 </div>
     <br>
 @endsection

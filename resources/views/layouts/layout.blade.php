@@ -21,8 +21,9 @@
 <br>
 
 </body>
+<br><br>
 <footer class="text-center mt-auto">
-    <div style="position: center">
+    <div style="text-align: center">
         <span><strong>Copyright &copy; 2022/23 All Right Reserved to Issam & Amer&reg;</strong></span>
     </div>
 </footer>

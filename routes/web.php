@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('/files/start');
 });
 
 Route::get('/files/start', [App\Http\Controllers\StartController::class, 'index'])->name('files.start');
